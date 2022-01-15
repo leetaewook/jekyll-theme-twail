@@ -6,6 +6,8 @@ require "jekyll"
 # TODO: Write your Github Repository name
 GITHUB_REPONAME = "leetaewook/jekyll-theme-twail"
 
+ENV["JEKYLL_ENV"] = "production"
+
 desc "Generate blog files"
 task :generate do
   Jekyll::Site.new(Jekyll.configuration({
