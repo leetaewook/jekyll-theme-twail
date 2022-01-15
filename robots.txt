@@ -1,0 +1,1 @@
+Sitemap: /jekyll-theme-twail/sitemap.xml
